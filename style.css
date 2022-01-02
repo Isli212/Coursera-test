@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+.custom-logo{
+    padding: 5px;
+    font-size: 2em; 
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.custom-title{
+    text-align: center; 
+    color: white;
+}
+
+.custom-card-text{
+    text-align: center;
+}
+.empty-space{
+    height: 50px;
+}
+
+.for-mobile{
+    padding: 3%;
+}
+
+@media screen and (max-width: 430px) {
+    .for-mobile{
+        padding-left: 18%; 
+        padding-top: 10%;
+    }
+  }
+
+  .login-options{
+    max-width: 12rem; 
+    padding: 30px; 
+    border-radius: 50%; 
+    border: 3px solid lightgreen
+  }
+
+  .icon-button{
+    margin-left: 10px; 
+    color: white;
+  }
+
+  .footer-costum-style{
+    max-width: 100%; 
+    padding: 0.5em; 
+    background-color: #30312f;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+   
+}
